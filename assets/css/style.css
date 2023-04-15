@@ -266,6 +266,7 @@ main-content CSS
   line-height: 32px;
   font-weight: 400;
   color: #46464F;
+  word-wrap: break-word;
 }
 
 .content p a,
