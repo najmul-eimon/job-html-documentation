@@ -298,7 +298,6 @@ main-content CSS
   margin: 25px 0;
 }
 
-
 .installation ol {
   padding-left: 20px;
 }
@@ -318,9 +317,6 @@ main-content CSS
 .credits ul li {
   list-style-type: disc;
 }
-
-
-
 
 /*===========================================================
 mobile nav CSS
@@ -356,6 +352,7 @@ mobile nav CSS
   left: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 20;
 }
 
 .mobile-nav button {
@@ -405,13 +402,13 @@ mobile nav CSS
   }
 
   .title h2 {
-    font-size: 28px;
-    line-height: 32px;
-  }
-
-  .title h2 {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .content h3 {
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .content h4 {
